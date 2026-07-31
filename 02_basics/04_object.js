@@ -59,5 +59,6 @@ console.log(Object.keys(AppUser)); //[this will give the key of the object  and 
 console.log(Object.values(AppUser));
 console.log(Object.entries(AppUser));  //[the data type will be array in array]
 console.log(AppUser.hasOwnProperty("loggedIn"));  //[it will check the the key is present in object or not]
+console.log(AppUser.isPrototypeOf(AppUser2));
 
 //Practice on object method in browser console//
