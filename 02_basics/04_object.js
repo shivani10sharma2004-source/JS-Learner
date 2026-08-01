@@ -55,10 +55,40 @@ const users=[
 ]
 //users[1].email
 
-console.log(Object.keys(AppUser)); //[this will give the key of the object  and the data type will be array]
-console.log(Object.values(AppUser));
-console.log(Object.entries(AppUser));  //[the data type will be array in array]
-console.log(AppUser.hasOwnProperty("loggedIn"));  //[it will check the the key is present in object or not]
-console.log(AppUser.isPrototypeOf(AppUser2));
+//console.log(Object.keys(AppUser)); //[this will give the key of the object  and the data type will be array]
+//console.log(Object.values(AppUser));
+//console.log(Object.entries(AppUser));  //[the data type will be array in array]
+//console.log(AppUser.hasOwnProperty("loggedIn"));  //[it will check the the key is present in object or not]
+//console.log(AppUser.isPrototypeOf(AppUser2));
 
 //Practice on object method in browser console//
+
+const course={
+    courseName:"js",
+    coursePrice:"2999",
+    startdate:"2026-08-01"
+
+}
+console.log(course.startdate);
+
+const{coursePrice:price}=course  //{we can also cahne the name of corsePrice by using : and then new name ]}
+//console.log(coursePrice);  //[this is called destructing of object]
+ //console.log(price);
+
+
+ //{
+   // "Name":"Shivani",
+    //"Price":"2999",
+    //"startingdate":"2026-08-01"  //[this is json format we can use this in api]
+
+//}
+
+[
+    {},
+    {},
+    {}
+]
+
+
+
+
