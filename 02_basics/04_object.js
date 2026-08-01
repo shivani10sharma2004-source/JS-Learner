@@ -84,7 +84,7 @@ const{coursePrice:price}=course  //{we can also cahne the name of corsePrice by 
 //}
 
 [
-    {},
+    {},  
     {},
     {}
 ]
