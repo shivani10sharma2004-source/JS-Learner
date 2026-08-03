@@ -71,7 +71,40 @@ function otherClass(myname){  //[we can also use default parameter in function i
 console .log(otherClass());
 
 
+function calculatecartprice(val1,val2,...num1){  //[It is called rest Operator in function it means the value that we receive in function will be stored in aaray] ]
+    return[val1,val2,num1] //[we also return value as using object {}]
+}
+console .log(calculatecartprice(6765,4324,1234,5432,6754));
+
+const user={
+    name:"Shivani",
+    age:21,
+    userId:1234
+}
+
+function userdetails(usermain){
+    console.log(`username is ${usermain.name} and userId is ${usermain.userId}`);
+}
+//userdetails(user)
+userdetails({
+    name:"shivani",
+    userId:1234
+})
+
+const mynewarray=[1,2,3,4,5]
+
+function ReturnFourthValue(myarray){
+    return myarray[4]
+}
+//console.log(ReturnFourthValue(mynewarray));   //[how we can pass array in function and return value from function]
+console.log(ReturnFourthValue([200,433,234,786,654])); 
+
+
+
+
+
  
+
 
 
 
