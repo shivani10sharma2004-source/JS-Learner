@@ -85,11 +85,11 @@ const user={
 function userdetails(usermain){
     console.log(`username is ${usermain.name} and userId is ${usermain.userId}`);
 }
-//userdetails(user)
+//userdetails(user) //[how we can pass object in function and return value from function]
 userdetails({
     name:"shivani",
     userId:1234
-})
+})    //
 
 const mynewarray=[1,2,3,4,5]
 
