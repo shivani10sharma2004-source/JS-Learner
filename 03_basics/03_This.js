@@ -45,6 +45,22 @@ const myName=() =>{        //[This is arrow Function]
    }
 myName();
 
+
+const user = {
+    name: "Shivani",
+
+    getName: function () {
+
+        const show = () => {
+            console.log(this.name);
+        };
+
+        show();
+    }
+};
+
+user.getName();
+
 //*******************Basic Syntax of arrow function**************************//
 
 ()=>{}
