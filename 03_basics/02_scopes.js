@@ -82,16 +82,16 @@ if(true){
 //***************************Interesting**************************************/
 
 
-console.log(addOne(5));
+
 function addOne(num){
     return num+1;
 }
-
+console.log(addOne(4));
 
 
 console.log(addtwo(4));;
 
-const addtwo=function(num){
+const addtwo=function(num){    //[Another way to write a function is to use function expression]
     return num+2;
 }
-addtwo(4);
+addtwo(4);  //[ we dont call function before it is declare  and this is called hoisting
