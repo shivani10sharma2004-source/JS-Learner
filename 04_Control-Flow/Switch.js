@@ -18,7 +18,7 @@ switch(Day){
         break;
     case 3:
         console.log("Wednesday");
-        break;
+        break;                      //[If we dont use break after a case it will also print next case statemnet after that except default]
     default:
         console.log("Invalid Day");
     }
